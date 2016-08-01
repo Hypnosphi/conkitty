@@ -2,7 +2,7 @@
     "name": "conkitty",
     "version": "0.6.0",
     "description": "Template Engine",
-    "main": "conkitty",
+    "main": "_env.js",
     "directories": {
         "test": "test",
         "bin": "bin"
@@ -28,7 +28,7 @@
         "conkitty": "bin/conkitty"
     },
     "dependencies": {
-        "concat.js": "~0.9.5",
+        "concat.js": "git://github.com/Hypnosphi/conkitty.git",
         "uglify-js": "~1.3.5",
         "commander": "~2.3.0",
         "source-map": "~0.5.3"
